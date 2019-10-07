@@ -97,31 +97,28 @@ header {
 }
 h1 {
 	font-size: 64px;
-	display:flex;
-	padding: 20%;
+    padding: 20%;
+    display: flex;
 	text-align: center;
 	/* border: 1px dashed red; */
 }
 
-.cta-text {
-	display: flex;
-	flex-direction: column;
-	width: 40%;
-	margin: 100px;
-	/* border: 2px solid grey; */
-
+.cta {
+    display:flex;
+    justify-content: space-evenly;
+    padding: 10px;
+	/*  border: 1px solid grey; */
 }
 
-.cta {
-	display:flex;
-	width: 100%;
-	/* border: 1px solid grey; */
+.ctabutton {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid green; */
 }
 
 button {
-	display: flex;
-	justify-content: center;
-	width: 30%;
+    width: 150px;
 	font-size: 14px;
 	padding: 6px;
 	border: 1px solid black;
@@ -259,12 +256,12 @@ footer {
 }
 @media (max-width: 800px){
     h1 {
-      background-color: green;
+      background-color: paleturquoise;
     }
   }
 
   @media (max-width: 500px){
     h1 {
-      background-color: green;
+      background-color: gray;
     }
   }
