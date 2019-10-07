@@ -255,8 +255,18 @@ footer {
 	width: 40%;
 }
 @media (max-width: 800px){
-    h1 {
+    body {
       background-color: paleturquoise;
+    }
+    .code-circle {
+        display: none;
+    }
+    .navlogo {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 20px;
+        /* border: 2px solid blue; */
     }
   }
 
